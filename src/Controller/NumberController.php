@@ -5,7 +5,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class BlogController extends AbstractController
+class NumberController extends AbstractController
 {
      /**
      * @Route("/lucky/number/{id}", methods={"GET","HEAD"})
